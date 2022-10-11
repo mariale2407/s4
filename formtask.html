@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Survey form</title>
+      <meta charset="UTF-8">
+    </head>
+    
+        <body>
+          <form id="survey-form">
+           
+          <h1 id="title">Survey Form </h1>
+          
+          <section>
+            
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label><br>
+          <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required/><br><br>
+          
+          <label id="email-label" for="email">Email</label><br>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required/><br><br>
+        
+          
+          <div>
+          <label>Would you recommend Meeelow to a friend?</label><br>
+           <input type="radio" id="option1"
+                 name="choice" value="Definitely" checked>
+          <label for="option1">Definitely</label><br>
+       
+          <input type="radio" id="option2"
+                 name="choice" value="Maybe">
+          <label for="option2">Maybe</label><br>
+            
+            <input type="radio" id="option3"
+                 name="choice" value="notsure">
+          <label for="option3">Not Sure</label><br><br>
+      
+          </div>   
+          
+          <label>How did you learn about our website?</label><br>
+          <select name="Select an option" id="dropdown" class="form-control">
+             <option disabled selected value= 'display: none' value="Select an option"> Select an option </options>
+          <option value="Instagram">Instagram</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Search Engine">Search Engine</option>
+          <option value="Recommendation">Recommendation from a friend</option>
+          <option value="Other">Other</option>
+          
+             </select><br>
+        
+          
+      
+        
+        <p>Any comments or suggestions?</p>
+        <textarea id="comment" name="comment" placeholder="Enter your comment here..."></textarea><br>
+          
+          <br><br>
+          <button type = "submit" id = "submit" form = "survey-form" value = "Submit">Submit</button>
+          </section>
+      </form>
+      
+        </body>
+     
+
+
+
+</html>
